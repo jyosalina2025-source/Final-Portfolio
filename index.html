@@ -27,34 +27,28 @@
         </div>
     </header>
     
-    <section class="hero">
+<section class="hero">
 
+    <!-- LEFT -->
     <div class="hero-text">
-        <h3>Hi I Am</h3>
-        <h1>Jan Marc Yosalina</h1>
-        <h2>a Computer Science Student</h2>
-    </div>
-<div class="hero-image">
+        <div class="hero-content">
+            <p class="hero-subtitle">WELCOME TO MY WORLD</p>
 
-    <img src="profpic1.png" alt="Profile Picture">
+            <h1 class="hero-title">Hi, I'm Jan Marc</h1>
 
-    <!-- FLOATING SKILLS -->
-    <div class="skill html">HTML</div>
-    <div class="skill css">CSS</div>
-    <div class="skill js">JavaScript</div>
-    <div class="skill python">Python</div>
-    <div class="skill flask">Flask</div>
-
-</div>
-    
-<div class="hero-actions">
+            <p class="hero-description">
+                Computer Science student passionate about
+                frontend development, UI/UX design,
+                and interactive projects.
+            </p>
+                    <div class="hero-actions">
     <div class="projects-popup-wrapper">
         <a href="#portfolio" class="btn btn-outline">
             Quick View Projects <i class="fa-solid fa-chevron-down"></i>
         </a>
         
         <div class="projects-popup-menu">
-            <a href="#portfolio"><i class="fa-solid fa-desktop"></i> Army Mock Website</a>
+            <a href="#portfolio"><i class="fa-solid fa-desktop"></i> Mock Website</a>
             <a href="#portfolio"><i class="fa-solid fa-fire"></i> Arduino Fire Alarm</a>
             <a href="#portfolio"><i class="fa-solid fa-film"></i> Animation Script</a>
             <a href="#portfolio"><i class="fa-solid fa-gamepad"></i> Scratch Game</a>
@@ -62,11 +56,29 @@
     </div>
    <div class="social-links">
         <a href="https://github.com/jyosalina2025-source" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/jan-marc-yosalina-2803a3402?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.linkedin.com/in/jan-marc-yosalina-2803a3402?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
     </div>
 </div>
-    </section>
     
+
+        </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="hero-image">
+        <div class="img-wrapper">
+            <img src="your-image.jpg" alt="Student Programmer Profile">
+             <!-- FLOATING SKILLS -->
+    <div class="skill html">HTML</div>
+    <div class="skill css">CSS</div>
+    <div class="skill js">Arduino</div>
+    <div class="skill python">Python</div>
+    <div class="skill flask">Scratch</div>
+
+        </div>
+    </div>
+</section>
+
     <section id="skills">
         <div class="section-title">
             <h4>My Skills</h4>
@@ -112,7 +124,10 @@
         <div class="portfolio-content">
             <h3>Philippine Army Reservist Mock Website</h3>
             <p>Designed and built a mock UI/UX web interface during my OJT to practice modern layout techniques.</p>
-            <div class="tags"><span>UI/UX Design</span> <span>HTML/CSS</span></div>
+             <div class="more-info">
+                <p><strong>Focus:</strong> Created a responsive grid layout, accessible navigation, and a professional military-themed color palette to improve user experience.</p>
+            </div>
+            <div class="tags"><span>UI/UX Design</span> <span>XAMPP</span></div>
         </div>
         <div class="hidden-gallery" style="display: none;">
             <img src="ojt.jpeg" alt="Main View">
@@ -128,6 +143,9 @@
         <div class="portfolio-content">
             <h3>Arduino Two-Way Fire Alarm</h3>
             <p>Built a hardware prototype of a 2-way fire alarm system using Arduino to learn about microcontrollers.</p>
+            <div class="more-info">
+                <p><strong>Focus:</strong> Wired temperature and smoke sensors to an Arduino board and wrote the C++ logic to trigger audio alerts and visual indicators.</p>
+            </div>
             <div class="tags"><span>Arduino</span> <span>Hardware/Sensors</span></div>
         </div>
         <div class="hidden-gallery" style="display: none;">
@@ -143,6 +161,9 @@
         <div class="portfolio-content">
             <h3>Animated Short Film Script</h3>
             <p>Wrote the storyline and script for a collaborative school animation project.</p>
+            <div class="more-info">
+                <p><strong>Focus:</strong> Outlined character dialogue, scene transitions, and pacing to ensure the animation effectively communicated its core message.</p>
+            </div>
             <div class="tags"><span>Creative Writing</span> <span>Storyboarding</span></div>
         </div>
         <div class="hidden-gallery" style="display: none;">
@@ -158,6 +179,9 @@
         <div class="portfolio-content">
             <h3>Interactive Scratch Game</h3>
             <p>Developed a simple, interactive game using Scratch to build a practical understanding of game logic.</p>
+            <div class="more-info">
+                <p><strong>Focus:</strong> Implemented basic collision detection, score tracking, and character movement using block-based event handling.</p>
+            </div>
             <div class="tags"><span>Scratch</span> <span>Game Logic</span></div>
         </div>
         <div class="hidden-gallery" style="display: none;">
@@ -173,7 +197,7 @@
     <section id="resume">
         <div class="section-title">
             
-            <h2>My Resume</h2>
+            <h2>My Background</h2>
         </div>
         
         <div class="resume-container">
@@ -187,39 +211,24 @@
                     </div>
                     <div class="timeline-item">
                         <h4>Bachelor of Science in Computer Science</h4>
-                        <span class="date">2025 - Current | NBS College</span>
+                        <span class="date">2025 - Present | NBS College</span>
                         <p>Built foundational skills in logic, programming, Web Development</p>
                     </div>
                 </div>
-
-                <div class="resume-box">
-                    <h3 class="resume-title">Job Experience</h3>
-                    <div class="timeline-item">
-                        <h4>Chief Medical Officer</h4>
-                        <span class="date">2020 - Present | General Hospital</span>
-                        <p>Overseeing daily clinical operations, managing a staff of 200+ healthcare professionals.</p>
-                    </div>
-                    <div class="timeline-item">
-                        <h4>Senior Surgeon</h4>
-                        <span class="date">2015 - 2020 | City Care Clinic</span>
-                        <p>Performed over 500 successful surgeries and implemented new patient recovery protocols.</p>
-                    </div>
-                </div>
-            </div>
 
             <div>
                 <div class="resume-box">
                     <h3 class="resume-title">Stay With Me</h3>
                     <div class="social-links" style="margin-bottom: 20px;">
-                        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/janmarc.yosalina" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="yosalinajanmarc4@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/jan-marc-yosalina-2803a3402?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                     </div>
                     <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;">
-                        <i class="fa-solid fa-envelope" style="color: var(--accent-color); margin-right: 10px;"></i> doctor@example.com
+                        <i class="fa-solid fa-envelope" style="color: var(--accent-color); margin-right: 10px;"></i> yosalinajanmarc4@gmail.com
                     </p>
                     <p style="color: var(--text-muted); font-size: 0.9rem;">
-                        <i class="fa-solid fa-phone" style="color: var(--accent-color); margin-right: 10px;"></i> +1 (234) 567-890
+                        <i class="fa-solid fa-phone" style="color: var(--accent-color); margin-right: 10px;"></i>09687415607
                     </p>
                 </div>
             </div>
