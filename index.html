@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Marc | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo"><i class="fa-brands fa-bilibili"></i>JMY</div>
+        
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" onclick="closeMenu()">Home</a></li>
+            <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+            <li><a href="#portfolio" onclick="closeMenu()">Works</a></li>
+            <li><a href="#resume" onclick="closeMenu()">Resume</a></li>
+        </ul>
+
+        <div class="nav-buttons">
+            <div class="menu-icon" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+
+    <div class="hero-text">
+        <h3>Hi I Am</h3>
+        <h1>Jan Marc Yosalina</h1>
+        <h2>a Computer Science Student</h2>
+    </div>
+<div class="hero-image">
+
+    <img src="profpic1.png" alt="Profile Picture">
+
+    <!-- FLOATING SKILLS -->
+    <div class="skill html">HTML</div>
+    <div class="skill css">CSS</div>
+    <div class="skill js">JavaScript</div>
+    <div class="skill python">Python</div>
+    <div class="skill flask">Flask</div>
+
+</div>
+    
+<div class="hero-actions">
+    <div class="projects-popup-wrapper">
+        <a href="#portfolio" class="btn btn-outline">
+            Quick View Projects <i class="fa-solid fa-chevron-down"></i>
+        </a>
+        
+        <div class="projects-popup-menu">
+            <a href="#portfolio"><i class="fa-solid fa-desktop"></i> Army Mock Website</a>
+            <a href="#portfolio"><i class="fa-solid fa-fire"></i> Arduino Fire Alarm</a>
+            <a href="#portfolio"><i class="fa-solid fa-film"></i> Animation Script</a>
+            <a href="#portfolio"><i class="fa-solid fa-gamepad"></i> Scratch Game</a>
+        </div>
+    </div>
+   <div class="social-links">
+        <a href="https://github.com/jyosalina2025-source" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jan-marc-yosalina-2803a3402?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+</div>
+    </section>
+    
+    <section id="skills">
+        <div class="section-title">
+            <h4>My Skills</h4>
+            <h2>What I Do</h2>
+             <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">I'm a Computer Science Student who enjoys learning how things work. I spend most of my time studying full-stack development and exploring artificial intelligence. I'm always looking for new opportunities to practice, build, and improve my coding skills.</p>
+        </div>
+            <div class="skills-grid">
+            <div class="skills-card">
+                <div class="skills-icon"><i class="fa-solid fa-code"></i></div>
+                <h3>Programming</h3>
+                <p>Created programs using PYTHON, HTML, CSS, C</p>
+            </div>
+            <div class="skills-card">
+                <div class="skills-icon"><i class="fa-solid fa-window-maximize"></i></div>
+                <h3>Front-End Web Development</h3>
+                <p>Designed and built a mock website interface for the Philippine Army Reservist Department to practice layout and styling.</p>
+            </div>
+            <div class="skills-card">
+                <div class="skills-icon"><i class="fa-solid fa-gamepad"></i></div>
+                <h3>Game Development</h3>
+                <p>Built foundational programming logic by creating simple, interactive games using Scratch.</p>
+            </div>
+            <div class="skills-card">
+                <div class="skills-icon"><i class="fa-solid fa-scroll"></i></div>
+                <h3>Creative Media</h3>
+                <p>Developed an animated story and wrote accompanying scripts for a school project.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="section-title">
+            <h4>My Works</h4>
+            <h2>Portfolio</h2>
+            <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">A collection of my submissions, class assignments, and personal side projects that I've put together to practice what I'm learning.</p>
+        </div>
+  
+   <div class="portfolio-grid">
+    <div class="portfolio-card">
+        <div class="portfolio-img">
+            <img src="ojt.jpeg" alt="Philippine Army Reservist Mock Website">
+        </div>
+        <div class="portfolio-content">
+            <h3>Philippine Army Reservist Mock Website</h3>
+            <p>Designed and built a mock UI/UX web interface during my OJT to practice modern layout techniques.</p>
+            <div class="tags"><span>UI/UX Design</span> <span>HTML/CSS</span></div>
+        </div>
+        <div class="hidden-gallery" style="display: none;">
+            <img src="ojt.jpeg" alt="Main View">
+            <img src="ojt-2.jpg" alt="Second View"> 
+            <img src="ojt-3.jpeg" alt="Third View"> 
+        </div>
+    </div>
+
+    <div class="portfolio-card">
+        <div class="portfolio-img">
+            <img src="arduino.jpg" alt="Arduino Fire Alarm">
+        </div>
+        <div class="portfolio-content">
+            <h3>Arduino Two-Way Fire Alarm</h3>
+            <p>Built a hardware prototype of a 2-way fire alarm system using Arduino to learn about microcontrollers.</p>
+            <div class="tags"><span>Arduino</span> <span>Hardware/Sensors</span></div>
+        </div>
+        <div class="hidden-gallery" style="display: none;">
+            <img src="arduino.jpg" alt="Main View">
+            <img src="arduino-2.jpg" alt="Wiring Setup">
+        </div>
+    </div>
+
+    <div class="portfolio-card">
+        <div class="portfolio-img">
+            <img src="animation.png" alt="Animation storyboard">
+        </div>
+        <div class="portfolio-content">
+            <h3>Animated Short Film Script</h3>
+            <p>Wrote the storyline and script for a collaborative school animation project.</p>
+            <div class="tags"><span>Creative Writing</span> <span>Storyboarding</span></div>
+        </div>
+        <div class="hidden-gallery" style="display: none;">
+            <img src="animation.png" alt="Main View">
+            <img src="animation-2.png" alt="Storyboard Frame 1">
+        </div>
+    </div>
+
+    <div class="portfolio-card">
+        <div class="portfolio-img">
+            <img src="Scratch.jpg" alt="Scratch Game Dev">
+        </div>
+        <div class="portfolio-content">
+            <h3>Interactive Scratch Game</h3>
+            <p>Developed a simple, interactive game using Scratch to build a practical understanding of game logic.</p>
+            <div class="tags"><span>Scratch</span> <span>Game Logic</span></div>
+        </div>
+        <div class="hidden-gallery" style="display: none;">
+            <img src="Scratch.jpg" alt="Main View">
+            <img src="Scratch-2.jpg" alt="Gameplay screenshot">
+            <img src="Scratch-3.jpg" alt="Code blocks">
+        </div>
+    </div>
+</div>
+
+
+
+    <section id="resume">
+        <div class="section-title">
+            
+            <h2>My Resume</h2>
+        </div>
+        
+        <div class="resume-container">
+            <div>
+                <div class="resume-box">
+                    <h3 class="resume-title">Education</h3>
+                    <div class="timeline-item">
+                        <h4>Information and Communications Technology Strand </h4>
+                        <span class="date">2023 - 2025 | MCA Montessori School</span>
+                        <p>Graduated with honors, actively participating in collaborative group projects</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Bachelor of Science in Computer Science</h4>
+                        <span class="date">2025 - Current | NBS College</span>
+                        <p>Built foundational skills in logic, programming, Web Development</p>
+                    </div>
+                </div>
+
+                <div class="resume-box">
+                    <h3 class="resume-title">Job Experience</h3>
+                    <div class="timeline-item">
+                        <h4>Chief Medical Officer</h4>
+                        <span class="date">2020 - Present | General Hospital</span>
+                        <p>Overseeing daily clinical operations, managing a staff of 200+ healthcare professionals.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Senior Surgeon</h4>
+                        <span class="date">2015 - 2020 | City Care Clinic</span>
+                        <p>Performed over 500 successful surgeries and implemented new patient recovery protocols.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="resume-box">
+                    <h3 class="resume-title">Stay With Me</h3>
+                    <div class="social-links" style="margin-bottom: 20px;">
+                        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 15px;">
+                        <i class="fa-solid fa-envelope" style="color: var(--accent-color); margin-right: 10px;"></i> doctor@example.com
+                    </p>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">
+                        <i class="fa-solid fa-phone" style="color: var(--accent-color); margin-right: 10px;"></i> +1 (234) 567-890
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const navLinks = document.getElementById('navLinks');
+        const icon = menuBtn.querySelector('i');
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            
+            // Switch between hamburger and X icon
+            if(navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            } else {
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Close menu when a link is clicked
+        function closeMenu() {
+            if(navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        }
+    </script>
+        <div id="galleryModal" class="gallery-modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h3 id="modalTitle">Project Title</h3>
+        <div id="modalGallery" class="modal-gallery-grid">
+            </div>
+    </div>
+</div>
+<script>
+    const modal = document.getElementById("galleryModal");
+    const modalTitle = document.getElementById("modalTitle");
+    const modalGallery = document.getElementById("modalGallery");
+    const closeBtn = document.querySelector(".close-modal");
+
+    // Loop through all project cards
+    document.querySelectorAll(".portfolio-card").forEach(card => {
+        card.addEventListener("click", () => {
+            // Get the project title
+            const title = card.querySelector("h3").innerText;
+            
+            // Get the images from the hidden gallery inside this specific card
+            const hiddenGallery = card.querySelector(".hidden-gallery");
+            
+            if (hiddenGallery) {
+                modalTitle.innerText = title; // Set the modal title
+                modalGallery.innerHTML = hiddenGallery.innerHTML; // Copy the images into the modal
+                
+                // Show the modal and stop the background page from scrolling
+                modal.classList.add("active");
+                document.body.style.overflow = "hidden"; 
+            }
+        });
+    });
+
+    // Close modal when the "X" is clicked
+    closeBtn.addEventListener("click", () => {
+        modal.classList.remove("active");
+        document.body.style.overflow = "auto";
+    });
+
+    // Close modal if user clicks outside the box (on the dark background)
+    window.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.classList.remove("active");
+            document.body.style.overflow = "auto";
+        }
+    });
+</script>
+</body>
+</html>
